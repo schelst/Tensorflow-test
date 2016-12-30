@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		6E4599911E17052A00F706F8 /* python.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = python.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		6E4599861E17033100F706F8 = {
 			isa = PBXGroup;
 			children = (
+				6E4599911E17052A00F706F8 /* python.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +27,8 @@
 			buildConfigurationList = 6E45998E1E17033200F706F8 /* Build configuration list for PBXLegacyTarget "Tensorflow" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/make;
+			buildToolPath = /Users/stevenschelles/anaconda/envs/tensorflow/bin/python;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = Tensorflow;
